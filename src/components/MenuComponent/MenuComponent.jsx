@@ -1,10 +1,11 @@
 import React from 'react';
 import { Grid } from 'semantic-ui-react';
 import MobileMenu from './../MobileMenu/MobileMenu';
+import DesktopMenu from './../DesktopMenu/DesktopMenu';
 import './MenuComponent.css';
 
 function MenuComponent({ isMobile }) {
-	const component = isMobile ? <MobileMenu /> : <h1>Desktop Menu</h1>;
+	const component = isMobile ? <MobileMenu /> : <DesktopMenu />;
 
 	return (
 		<Grid container className="menu-wrapper">

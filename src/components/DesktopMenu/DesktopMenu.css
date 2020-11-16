@@ -1,0 +1,17 @@
+.desktop-menu {
+	padding-bottom: 2em !important;
+	padding-top: 2em !important;
+}
+
+.desktop-menu .desktop-menu__title {
+	font-size: 25px;
+}
+
+.desktop-menu .desktop-menu__title span{
+	font-weight: 100;
+}
+
+.desktop-menu .desktop-menu__list .list__wrapper .list__item{
+	color: #FFF;
+	font-size: 15px;
+}

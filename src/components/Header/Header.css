@@ -1,17 +1,36 @@
 .header {
 	background-color: #E04646;
 	color: #FFF;
+	padding-bottom: 50em;
 }
 
+/* Mobile */
 .header-top .header-top__title {
 	font-size: 40px;
 	margin-top: 2em;
 	text-shadow: 2px 2px rgba(0,0,0,0.5);
 }
 
+/* Mobile */
 .header-top .header-top__text {
 	font-size: 17px;
 	margin-bottom: 1.5em;
 	margin-top: 1.5em;
 	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.header .header-top .header-top__image {
+	display: none;
+	margin-bottom: 2em !important;
+}
+
+@media only screen and (min-width: 1024px) {
+	.header-top .header-top__title {
+		font-size: 55px;
+		margin-top: 1em;
+	}
+
+	.header-top .header-top__text {
+		font-size: 20px;
+	}
 }
