@@ -13,11 +13,7 @@ function MobileMenu() {
 				</Grid.Column>
 
 				<Grid.Column width={3}>
-					<Icon
-						name="bars"
-						color="white"
-						size="big"
-					/>
+					<Icon name="bars" size="big" />
 				</Grid.Column>
 			</Grid.Row>
 		</Grid>
